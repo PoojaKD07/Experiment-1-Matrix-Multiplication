@@ -1,0 +1,17 @@
+MPI HOST ALLOCATION CHECK
+
+Recommended hostfile template:
+
+master slots=1
+worker1 slots=1
+worker2 slots=1
+worker3 slots=1
+
+Expected rank placement for -np 4:
+
+Rank 0 -> master
+Rank 1 -> worker1
+Rank 2 -> worker2
+Rank 3 -> worker3
+
+The actual `hosts` file is intentionally not included because it is environment-specific.

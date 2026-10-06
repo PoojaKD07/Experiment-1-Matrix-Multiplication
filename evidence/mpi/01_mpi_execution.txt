@@ -1,0 +1,15 @@
+MPI Matrix Multiplication Completed
+Matrix Size = 4000 x 4000
+Number of MPI Processes = 4
+Execution Time = 60.802443 seconds
+Verification C[0][0] = 4000.00
+
+Recorded rank/host lines from the run:
+Rank 0 on master computing 1000 rows
+Rank 1 on worker1 computing 1000 rows
+Rank 2 on worker2 computing 1000 rows
+Rank 3 on worker1 computing 1000 rows
+
+NOTE:
+The final line indicates that rank 3 was also placed on worker1 in the recorded run.
+For a clean four-node demonstration, correct the hostfile so that rank 3 is placed on worker3 and rerun the experiment.

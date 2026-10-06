@@ -1,0 +1,5 @@
+Implementation,Configuration,Execution_Time_Seconds,Verification
+Sequential,1 CPU execution,204.398481,4000.00
+OpenMP,8 threads,43.578664,4000.00
+MPI,4 processes,60.802443,4000.00
+CUDA,16x16 threads per block - total phase,0.080268,4000.00

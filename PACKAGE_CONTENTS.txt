@@ -1,0 +1,23 @@
+PACKAGE CONTENTS
+=================
+
+README.md
+.gitignore
+
+code/
+  sequential/matrix_sequential.c
+  openmp/matrix_openmp.c
+  mpi/matrix_mpi.c
+  mpi/hosts.example
+  cuda/matrix_cuda.cu
+
+evidence/
+  sequential/01_sequential_execution.png
+  openmp/01_openmp_execution.png
+  mpi/01_mpi_execution.txt
+  mpi/02_mpi_hostfile_note.txt
+  cuda/01_cuda_execution.txt
+
+results/
+  performance_summary.md
+  results.csv

@@ -1,0 +1,22 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+
+# Linux executables without extensions
+code/sequential/matrix_sequential
+code/openmp/matrix_openmp
+code/mpi/matrix_mpi
+code/cuda/matrix_cuda
+
+# Temporary/editor files
+*~
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local MPI hostfile
+code/mpi/hosts
